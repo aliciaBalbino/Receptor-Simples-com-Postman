@@ -1,4 +1,4 @@
-**RECEPTOR SIMPLES**
+**1ª Classe Criada -RECEPTOR SIMPLES-**
 
 **Classe:**
 Criei uma classe chamada ReceptorController.
@@ -16,3 +16,9 @@ Continuei usando @RestController  para ser um agente do HTTP para trocar dados e
 Usei o @RequestBody pela primeira vez no meu parâmetro (receber), é uma anotação que serve para pegar os dados enviados no corpo (body) da requisição 
 HTTP e transformar em um objeto Java dentro do método. Para que isso aconteça, estou usando Postman, para que eu tenha
 o ambiente do servidor e o ambiente do cliente.
+
+**2ª Classe Criada -Sensor Controller-:**
+
+Essa classe tem como objetivo identificar temperaturas acima de 30º graus. Ela retorna diferentes mensagens sendo para temperaturas
+acima do limite e abaixo deste marco.
+
